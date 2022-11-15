@@ -1,0 +1,95 @@
+.users-form{
+  width: fit-content;
+  background-color: #d1d1d1;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.users{
+  width: fit-content;
+  background-color: #d1d1d1;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.users svg {
+  font-size: 200px;
+  padding-right: 30px;
+}
+
+*{
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+b{
+  font-size: 24px;
+  text-align: center;
+}
+
+label{
+  margin-right: 10px;
+}
+
+input{
+  margin-right: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+input:hover, input:focus{
+  border: 3px solid #5fbab0;
+}
+
+.button-submit{
+  background-color: #5fbab0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.button-submit:hover{
+  background-color: #67A099;
+}
+
+.container-users{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.line{
+  width: 100%;
+  border-top: 2px solid #5fbab0;
+}
+
+h2{
+  margin-bottom: 5px;
+}
+
+.user-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
